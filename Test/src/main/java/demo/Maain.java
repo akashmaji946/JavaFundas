@@ -20,6 +20,7 @@ public class Maain {
 		   var cattie = new Cat();
 		   System.out.println(cattie.age);
 		   
+		   // object can store anything
 		   Object o = new Cat();
 		   System.out.println(o.toString());
 		   
