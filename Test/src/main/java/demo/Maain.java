@@ -14,15 +14,21 @@ public class Maain {
 		   
 		   //instantiation
 		   Cat cat = new Cat();
+		   cat.age = 14;
 		   System.out.println(cat.name);
 		   
 		 //use var kw
 		   var cattie = new Cat();
+		   cattie.name = "Tommy";
 		   System.out.println(cattie.age);
 		   
 		   // object can store anything
-		   Object o = new Cat();
-		   System.out.println(o.toString());
+		   // Object o = new Cat();
+		   //System.out.println(o.toString());
+		   
+		   // call method
+		   cat.sayMeow();
+		   cattie.sayMeow();
 		   
 	   }
 
